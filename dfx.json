@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "canisters": {
+    "tokenA": {
+      "type": "rust",
+      "package": "token_a",
+      "candid": "src/token_a/token_a.did"
+    },
+    "tokenB": {
+      "type": "rust",
+      "package": "token_b",
+      "candid": "src/token_b/token_b.did"
+    },
+    "swap_canister": {
+      "type": "rust",
+      "package": "swap_canister",
+      "candid": "src/swap_canister/swap_canister.did"
+    }
+  }
+}

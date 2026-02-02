@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "src/token_a",
+    "src/token_b",
+    "src/swap_canister"
+]

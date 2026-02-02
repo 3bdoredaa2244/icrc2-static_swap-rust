@@ -1,0 +1,4 @@
+service : (principal, principal) -> {
+  swap_a_to_b : (nat) -> (text);
+  swap_b_to_a : (nat) -> (text);
+}

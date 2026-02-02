@@ -1,0 +1,6 @@
+service : {
+  approve : (principal, nat) -> (bool);
+  balance_of : (principal) -> (nat) query;
+  transfer : (principal, nat) -> (bool);
+  transfer_from : (principal, principal, nat) -> (bool);
+}
